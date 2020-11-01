@@ -1,0 +1,29 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: ru_RU"
+
+msgctxt "Addons::name::staff_management"
+msgid "Staff management"
+msgstr "Управление персоналом"
+
+msgctxt "Addons::description::staff_management"
+msgid "Description (staff_management)"
+msgstr "Описание модуля управление персоналом"
+
+msgctxt "Languages::staff_management"
+msgid "Staff management"
+msgstr "Управление персоналом"
+
+msgctxt "Languages::staff_management_menu_description"
+msgid "View and manage staff members."
+msgstr "Просмотр и редактирование штатных сотрудников."
+
+msgctxt "Languages::ferst_name"
+msgid "First name"
+msgstr "Имя"
+
+msgctxt "Languages::last_name"
+msgid "Last name"
+msgstr "Фамилия"

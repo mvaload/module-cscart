@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>staff_management</id>
+    <version>1.0</version>
+    <priority>4294967294</priority>
+    <position>0</position>
+    <status>active</status>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <default_language>en</default_language>
+    <queries>
+        <item>DROP TABLE IF EXISTS ?:staff_members;</item>
+        <item>
+            CREATE TABLE `?:staff_members` (
+            `staff_id` int unsigned NOT NULL AUTO_INCREMENT,
+            `first_name` varchar(255) NOT NULL,
+            `last_name` varchar(255) NOT NULL,
+            `function` varchar(255) NOT NULL,
+            `email` varchar(255) NOT NULL,
+            `description` text,
+            `position` smallint(5) unsigned NOT NULL default '0',
+            `status` char(1) NOT NULL default 'A',
+            PRIMARY KEY  (`staff_id`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item type="file">database/data.sql</item>
+    </queries>
+</addon>

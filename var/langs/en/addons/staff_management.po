@@ -1,0 +1,21 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::staff_management"
+msgid "Staff management"
+msgstr "Staff management"
+
+msgctxt "Addons::description::staff_management"
+msgid "Description (staff_management)"
+msgstr "Description staff management"
+
+msgctxt "Languages::staff_management"
+msgid "Staff management"
+msgstr "Staff"
+
+msgctxt "Languages::staff_management_menu_description"
+msgid "View and manage staff members."
+msgstr "View and manage staff members."
